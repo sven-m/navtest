@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SuperDetailViewController : UIViewController
+@interface ChildViewController : UIViewController
 
 @end

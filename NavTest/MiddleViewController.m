@@ -6,16 +6,16 @@
 //  Copyright (c) 2014 Sven Meyer. All rights reserved.
 //
 
-#import "DetailViewController.h"
-#import "SuperDetailViewController.h"
+#import "MiddleViewController.h"
+#import "ChildViewController.h"
 
-@interface DetailViewController ()
+@interface MiddleViewController ()
 
 - (IBAction)superDetailButtonPressed:(id)sender;
 
 @end
 
-@implementation DetailViewController
+@implementation MiddleViewController
 
 #pragma mark - Managing the detail item
 

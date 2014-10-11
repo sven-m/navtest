@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		26CF147419E93604000FAAEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CF147319E93604000FAAEA /* main.m */; };
 		26CF147719E93604000FAAEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CF147619E93604000FAAEA /* AppDelegate.m */; };
-		26CF147A19E93604000FAAEA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CF147919E93604000FAAEA /* MasterViewController.m */; };
-		26CF147D19E93604000FAAEA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CF147C19E93604000FAAEA /* DetailViewController.m */; };
+		26CF147A19E93604000FAAEA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CF147919E93604000FAAEA /* RootViewController.m */; };
+		26CF147D19E93604000FAAEA /* MiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CF147C19E93604000FAAEA /* MiddleViewController.m */; };
 		26CF148019E93604000FAAEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CF147E19E93604000FAAEA /* Main.storyboard */; };
 		26CF148219E93604000FAAEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CF148119E93604000FAAEA /* Images.xcassets */; };
 		26CF148519E93604000FAAEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26CF148319E93604000FAAEA /* LaunchScreen.xib */; };
 		26CF149119E93604000FAAEA /* NavTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CF149019E93604000FAAEA /* NavTestTests.m */; };
-		26CF149C19E9368B000FAAEA /* SuperDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CF149B19E9368B000FAAEA /* SuperDetailViewController.m */; };
+		26CF149C19E9368B000FAAEA /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CF149B19E9368B000FAAEA /* ChildViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,18 +34,18 @@
 		26CF147319E93604000FAAEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26CF147519E93604000FAAEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		26CF147619E93604000FAAEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		26CF147819E93604000FAAEA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		26CF147919E93604000FAAEA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		26CF147B19E93604000FAAEA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		26CF147C19E93604000FAAEA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		26CF147819E93604000FAAEA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		26CF147919E93604000FAAEA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		26CF147B19E93604000FAAEA /* MiddleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiddleViewController.h; sourceTree = "<group>"; };
+		26CF147C19E93604000FAAEA /* MiddleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiddleViewController.m; sourceTree = "<group>"; };
 		26CF147F19E93604000FAAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26CF148119E93604000FAAEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		26CF148419E93604000FAAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		26CF148A19E93604000FAAEA /* NavTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CF148F19E93604000FAAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26CF149019E93604000FAAEA /* NavTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavTestTests.m; sourceTree = "<group>"; };
-		26CF149A19E9368B000FAAEA /* SuperDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperDetailViewController.h; sourceTree = "<group>"; };
-		26CF149B19E9368B000FAAEA /* SuperDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperDetailViewController.m; sourceTree = "<group>"; };
+		26CF149A19E9368B000FAAEA /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		26CF149B19E9368B000FAAEA /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,16 +89,16 @@
 			children = (
 				26CF147519E93604000FAAEA /* AppDelegate.h */,
 				26CF147619E93604000FAAEA /* AppDelegate.m */,
-				26CF147819E93604000FAAEA /* MasterViewController.h */,
-				26CF147919E93604000FAAEA /* MasterViewController.m */,
-				26CF147B19E93604000FAAEA /* DetailViewController.h */,
-				26CF147C19E93604000FAAEA /* DetailViewController.m */,
+				26CF147819E93604000FAAEA /* RootViewController.h */,
+				26CF147919E93604000FAAEA /* RootViewController.m */,
+				26CF147B19E93604000FAAEA /* MiddleViewController.h */,
+				26CF147C19E93604000FAAEA /* MiddleViewController.m */,
+				26CF149A19E9368B000FAAEA /* ChildViewController.h */,
+				26CF149B19E9368B000FAAEA /* ChildViewController.m */,
 				26CF147E19E93604000FAAEA /* Main.storyboard */,
 				26CF148119E93604000FAAEA /* Images.xcassets */,
 				26CF148319E93604000FAAEA /* LaunchScreen.xib */,
 				26CF147119E93604000FAAEA /* Supporting Files */,
-				26CF149A19E9368B000FAAEA /* SuperDetailViewController.h */,
-				26CF149B19E9368B000FAAEA /* SuperDetailViewController.m */,
 			);
 			path = NavTest;
 			sourceTree = "<group>";
@@ -230,10 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				26CF147719E93604000FAAEA /* AppDelegate.m in Sources */,
-				26CF147A19E93604000FAAEA /* MasterViewController.m in Sources */,
+				26CF147A19E93604000FAAEA /* RootViewController.m in Sources */,
 				26CF147419E93604000FAAEA /* main.m in Sources */,
-				26CF149C19E9368B000FAAEA /* SuperDetailViewController.m in Sources */,
-				26CF147D19E93604000FAAEA /* DetailViewController.m in Sources */,
+				26CF149C19E9368B000FAAEA /* ChildViewController.m in Sources */,
+				26CF147D19E93604000FAAEA /* MiddleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Sven Meyer. All rights reserved.
 //
 
-#import "SuperDetailViewController.h"
+#import "ChildViewController.h"
 
-@interface SuperDetailViewController ()
+@interface ChildViewController ()
 
 @end
 
-@implementation SuperDetailViewController
+@implementation ChildViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
